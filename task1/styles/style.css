@@ -1,0 +1,51 @@
+#space{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+}
+.slidecontainer{
+	width: 100%;
+	
+}
+#colerView{
+	width: 280px;
+}
+.slideblok{
+	height: 30px;
+}
+
+div.smale{
+	padding: 1px 1px;
+	margin:2px 3px;
+	border:1px #000 solid;
+	border-radius: 2px;
+	width: 25px;
+	height: 25px;
+}
+.smaleInput{
+	padding: 2px 4px;
+	width: 70px;
+	height: 25px;
+}
+input[type=range]{
+	width: 200px;
+	height: 25px;
+}
+.leftFloat{
+	float: left;
+}
+.rightFloat{
+	float: right;
+}
+input{
+	margin:2px 3px;
+}
+.R{
+	background-color: #ff0000;
+}
+.G{
+	background-color: #00ff00;
+}
+.B{
+	background-color: #0000ff;
+}

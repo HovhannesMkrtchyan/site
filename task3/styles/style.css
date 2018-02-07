@@ -1,0 +1,79 @@
+body{
+	text-align: center;
+	width: 100%;
+	height: 1000px;
+}
+.formImage{
+	text-align: center;
+	margin: 300px;
+}
+.imageContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    
+}
+img{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+
+.control{
+	border:1px #000 dashed;
+	position: absolute;
+}
+#leftD{
+	cursor: ew-resize;
+	height: 200px;
+	width: 15px;
+	left: -15px;
+}
+#rightD{
+	cursor: ew-resize;
+    width: 15px;
+    height: 200px;
+    left: 200px;
+}
+#topD{
+	cursor: n-resize;
+	width: 200px;
+	height: 15px;
+	top:-15px;
+}
+#bottomD{
+	cursor: n-resize;
+	width: 200px;
+	height: 15px;
+	top:200px;
+}
+#bottomLeftD{
+	cursor: ne-resize;
+    left: -15px;
+    top: 200px;
+    width: 15px;
+    height: 15px;
+}
+#topLeftD{
+	cursor: nw-resize;
+    left: -15px;
+    top: -15px;
+    width: 15px;
+    height: 15px;
+}
+#topRightD{
+	cursor: ne-resize;
+    left: 200px;
+    top: -15px;
+    width: 15px;
+    height: 15px;
+}
+#bottomRightD{
+	cursor: nw-resize;
+    left: 200px;
+    top: 200px;
+    width: 15px;
+    height: 15px;
+}
+
